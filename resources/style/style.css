@@ -1,0 +1,40 @@
+.clickable-sub {
+  cursor: pointer;
+  vertical-align: super;
+  font-size: smaller;
+}
+
+#floater {
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  /* border: 1px solid #d3d3d3; */
+}
+
+#floating-header {
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.floating-static {
+  background: transparent;
+  width: 320px;
+  top: 109px;
+  overflow: hidden;
+  position: fixed;
+  right: 20px;
+  display: block;
+  z-index: 2147483647;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 20px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.08) 0px 8px 20px);
+  border-style: none;
+}
+
+.no-margin{
+    margin: 0px;
+}
